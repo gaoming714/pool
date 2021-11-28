@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-ip_json = {"2miners":{"eth":"51.195.4.174","ctxc":"51.89.96.117"}}
+ip_json = {"2miners":{"eth":"51.195.4.174:2020","ctxc":"51.89.96.117:2222"}}
 
 
 @app.route("/")
